@@ -1,0 +1,7 @@
+services:
+ node-server:
+  build: .
+  container_name: server-shell
+  ports:
+  - 3001:3000
+ 
